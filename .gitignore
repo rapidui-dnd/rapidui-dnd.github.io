@@ -1,0 +1,6 @@
+
+# Ignore emacs information
+*~
+\#*\#
+.\#*
+*.undo-tree~
