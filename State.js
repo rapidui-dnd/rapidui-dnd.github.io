@@ -1,4 +1,5 @@
 
+// a changable state
 function State(initialValue, onChange) {
 
     let value = initialValue;
@@ -23,6 +24,7 @@ function State(initialValue, onChange) {
     return state;
 }
 
+// a derived state
 function Derived(dependencies, fn, onChange) {
 
     // initial
